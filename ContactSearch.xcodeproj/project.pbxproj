@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10A5AD1D1DBEE7060028E8FE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A5AD1C1DBEE7060028E8FE /* DetailViewController.swift */; };
 		10FAF0411DBED68D001D27B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAF0401DBED68D001D27B2 /* AppDelegate.swift */; };
 		10FAF0431DBED68D001D27B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAF0421DBED68D001D27B2 /* ViewController.swift */; };
 		10FAF0461DBED68D001D27B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10FAF0441DBED68D001D27B2 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10A5AD1C1DBEE7060028E8FE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 		10FAF03D1DBED68D001D27B2 /* ContactSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10FAF0401DBED68D001D27B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10FAF0421DBED68D001D27B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		10FAF03F1DBED68D001D27B2 /* ContactSearch */ = {
 			isa = PBXGroup;
 			children = (
+				10A5AD1C1DBEE7060028E8FE /* DetailViewController.swift */,
 				10FAF0401DBED68D001D27B2 /* AppDelegate.swift */,
 				10FAF0421DBED68D001D27B2 /* ViewController.swift */,
 				10FAF0441DBED68D001D27B2 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A5AD1D1DBEE7060028E8FE /* DetailViewController.swift in Sources */,
 				10FAF0431DBED68D001D27B2 /* ViewController.swift in Sources */,
 				10FAF0411DBED68D001D27B2 /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +306,7 @@
 				10FAF0511DBED68D001D27B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
